@@ -1,4 +1,5 @@
 
+import { Link } from 'react-router-dom';
 const NavBar = () => {
 
     return (
@@ -7,8 +8,12 @@ const NavBar = () => {
         <div className="container">
         <nav className="my-2 my-md-0 mr-md-3">
          
-        <> Rocket <span className="red"> Powers </span>  </>
+        <Link to ="/">
+        
 
+        <div className="rocket"> Rocket <span className="red"> Powers </span>  </div>
+
+        </Link>
 
         </nav>
          </div>
