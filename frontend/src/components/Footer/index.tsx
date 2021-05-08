@@ -7,7 +7,7 @@ const Footer = () => {
 
 <div className="container">
 
-<p className="text-light">Powered by Rocket <a href= "https://github.com/rocketpowers" target="_blank" rel="noreferrer">rocket powers</a></p>
+<p className="text-light">Powered by <a href= "https://github.com/rocketpowers" target="_blank" rel="noreferrer">rocket powers</a></p>
     
 </div>
 
