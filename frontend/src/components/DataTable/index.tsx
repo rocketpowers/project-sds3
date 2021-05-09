@@ -11,7 +11,7 @@ import Pagination from "components/Pagination";
 
 const DataTable = () => {
 
-    const[activePage, setActivePage] = useState(0);
+    const [activePage, setActivePage] = useState(0);
 
     const [page, setPage] = useState<SalePage>({
 
@@ -31,10 +31,10 @@ const DataTable = () => {
             });
     }, [activePage]);
 
-const changePage = (index:number)=>{
-setActivePage(index);
+    const changePage = (index: number) => {
+        setActivePage(index);
 
-}
+    }
     return (
         <>
             <Pagination page={page} onPageChance={changePage} />
