@@ -20,7 +20,7 @@ const DonutChart = () => {
 
         axios.get(`${BASE_URL}/sales/amount-by-seller`)
 
-        .then ( response => {
+        .then (response => {
 
         const data = response.data as SaleSum[];
 
@@ -30,8 +30,7 @@ const DonutChart = () => {
 
         setChartData({ labels:myLabels, series:mySeries });
 
-    
-    });
+         });
   }, []);
     
     const options = {
@@ -54,7 +53,5 @@ const DonutChart = () => {
   }
   
   export default DonutChart;
+ 
 
-function then(arg0: (response: any) => void) {
-    throw new Error('Function not implemented.');
-}

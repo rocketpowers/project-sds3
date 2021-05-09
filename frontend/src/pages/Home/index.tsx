@@ -7,30 +7,29 @@ const Home = () => {
     return (
 
         <>
-        <NavBar/>
+            <NavBar />
 
-        <div className="container">
-        <div className="jumbotron">
-            <h1 className="display-4">DSVendas</h1>
-            <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
-            <hr/>
-            <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</p>
+            <div className="container">
+                <div className="jumbotron">
+                    <h1 className="display-4">DSVendas</h1>
+                    <p className="lead">Analise o desempenho das suas vendas por diferentes perspectivas</p>
+                    <hr />
+                    <p>Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end construído com Spring Boot.</p>
 
-            <Link className= "btn btn-primary btn-small" to ="/dashboard"> 
-                dashboard access
+                    <Link className="btn btn-primary btn-small" to="/dashboard">
+                        dashboard access
                 </Link>
 
-        </div>
-    </div>
+                </div>
+            </div>
 
-    <Footer />
+            <Footer />
 
-    </>
-       );
-     }
-  
-        export default Home;
+        </>
+    );
+}
+
+export default Home;
 
 
-  
-  
+
